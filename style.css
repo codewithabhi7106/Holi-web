@@ -1,4 +1,59 @@
-html {
-  height: 100%;
-  width: 100%;
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-decoration:none;
 }
+#header{
+  background:url("https://media.istockphoto.com/id/486840926/vector/grunge-rainbow-background.jpg?s=612x612&w=is&k=20&c=FH5862VV8kkCkkHvkbRaBJ-kYLGjobkVRbpnVWd-BE4=") no-repeat center top/cover;
+  font-weight: bold;
+  color:red;
+  font-size: 30px;
+  font-family: "Anton", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 15px;
+  position: sticky;
+  top:0;
+}
+#header img{
+  width:80px;
+}
+#header a{
+  color:red;
+  text-shadow: 2px 2px 5px black;
+}
+.main{
+  min-height:100vh;
+  min-width: 100vw;
+  background:linear-gradient(to right,#FFA49f,#FF2A70,#FF5400,#FEC34D);
+  display:flex;
+  justify-content: center;
+}
+.main:active{
+  background: linear-gradient(#ff8859,#5f0b95);
+}
+.main div{
+  text-align: center;
+  width: 500px;
+}
+.main img{
+  width: 300px;
+  min-height:300px;
+  margin: 20px 0px;
+}
+button{
+  padding: 15px;
+  margin: 10px;
+  width: 300px;
+  background:red;
+  border:2px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#page1{
+  margin: 50px;
+}
+
